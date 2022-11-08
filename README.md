@@ -1,6 +1,16 @@
 # matzie-react-native-onetrust-cmp
-!!!!!!!!!!!!!!!
-This is a sketchy fix version for newer react native installations until onetrust fixes their own npm module. It's using the latest version of react-native-onetrust-cmp (at the time writing) but with a small adjustment that fixes the ```Cannot choose between the following variants of com.facebook.react:react-native:0.70.5:``` error by removing jdocs from the build file that should be a fixed based on this github comment https://github.com/iamolegga/react-native-launch-arguments/issues/38#issuecomment-1186194177
+## !!!!!!!READ THIS!!!!!!!!
+This is a sketchy fix version for newer react native installations until onetrust fixes their own npm module. It's using the latest version of react-native-onetrust-cmp (at the time writing) but with a small adjustment that fixes the error:
+```
+Could not resolve all files for configuration ':react-native-onetrust-cmp:implementation'.
+Could not resolve com.facebook.react:react-native:0.70.5.
+Required by:
+project :react-native-onetrust-cmp
+> Cannot choose between the following variants of com.facebook.react:react-native:0.70.5:
+- debugVariantDefaultRuntimePublication
+- releaseVariantDefaultRuntimePublication
+```
+by removing jdocs from the build file that should be a fixed based on this github comment https://github.com/iamolegga/react-native-launch-arguments/issues/38#issuecomment-1186194177
 
 I'm not sure this is a good work around but feel free to use this if you want to.
 
