@@ -1,6 +1,6 @@
 # matzie-react-native-onetrust-cmp
 ## !!!!!!!READ THIS!!!!!!!!
-This is a sketchy fix version for newer react native installations until onetrust fixes their own npm module. It's using the latest version of react-native-onetrust-cmp (at the time writing) but with a small adjustment that fixes the error:
+This is a sketchy fix version for newer react native installations until onetrust fixes their own npm module. It's using the latest version of react-native-onetrust-cmp (at the time writing version 202210.1.0) but with a small adjustment that fixes the error:
 ```
 Could not resolve all files for configuration ':react-native-onetrust-cmp:implementation'.
 Could not resolve com.facebook.react:react-native:0.70.5.
